@@ -27,7 +27,6 @@ class User(db.Model):
             "id": self.id,
             "username": self.username,
             "email": self.email,
-            "user_houses": user_houses,
             # do not serialize the password, its a security breach
         }
 
